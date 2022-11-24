@@ -1,3 +1,21 @@
+# 1、搭建vue3、vite、typescript集成环境
+```
+npm i yarn -g // 如果没有安装yarn，需先安装yarn
+yarn create vite vue3-vite-app --template vue-ts // 创建vite项目
+cd vue3-vite-app // 进入项目根目录
+yarn // 安装依赖
+yarn dev // 启动项目
+```
+
+# 2、安装配置pinia
+```
+yarn add pinia -S
+yarn add pinia-plugin-persist -S // 如果需要数据持久化，就安装这个
+```
+
+https://blog.csdn.net/Liu_csdn_csdn/article/details/126458339
+
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
